@@ -1,8 +1,6 @@
-#include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 
 typedef struct Patient {
     char name[20];
@@ -87,8 +85,7 @@ void insertAtPosition(const char* name, int age, const char* diagnosis, int posi
     printf("Patient %s added at position %d.\n", name, position);
 }
 
-int main()
-{
-    std::cout << "Hello, World!" << std::endl;
+int main() {
+    printf("Hello, World!\n");
     return 0;
 }
